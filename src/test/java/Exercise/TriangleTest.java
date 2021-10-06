@@ -12,7 +12,7 @@ class TriangleTest {
     Triangle tgv = new Triangle(new Point(0, 0), new Point(0, 3), new Point(4, 0));
     //isosceles right triangle- tam giác vuông cân
     Triangle tgvc = new Triangle(new Point(0, 0), new Point(0, 1), new Point(1, 0));
-    //isosceles triangle- tam giác cân*
+    //isosceles triangle- tam giác cân
     Triangle tgc = new Triangle(new Point(3, 2), new Point(0, 2), new Point(0, 3));
     // equilateral triangle-Tam giác deu* (toa do chua dung)
     Triangle tgd = new Triangle(new Point(3, 2), new Point(0, 2), new Point(0, 3));
