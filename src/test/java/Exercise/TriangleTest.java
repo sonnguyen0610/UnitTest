@@ -18,6 +18,18 @@ class TriangleTest {
     Triangle tgd = new Triangle(new Point(3, 2), new Point(0, 2), new Point(0, 3));
     //Khong phai tam giac
     Triangle ktg = new Triangle(new Point(0, 0), new Point(1, 1), new Point(1, 1));
+    //3 diem
+    Point p1 = new Point(3, 2);
+    Point p2 = new Point(0, 2);
+    Point p3 = new Point(0, 3);
+
+    @Test
+    @DisplayName("Calculate distance")
+    void calculateDistance() {
+        double actual = p1.distance(p2);
+        double expected = 3d;
+        assertEquals(expected, actual);
+    }
 
 
     @Test
@@ -51,6 +63,7 @@ class TriangleTest {
         double expected = 7.16227766016838;
         assertEquals(expected, actual);
     }
+
     @Test
     @DisplayName("Calculate Perimeter Equilateral triangle")
     void calculatePerimeterEquilateralTriangle() {
@@ -58,6 +71,7 @@ class TriangleTest {
         double expected = 7.16227766016838;
         assertEquals(expected, actual);
     }
+
     @Test
     @DisplayName("Calculate area triangle")
     void calculateAreaTriangle() {
