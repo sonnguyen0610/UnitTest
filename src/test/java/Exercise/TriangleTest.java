@@ -18,10 +18,9 @@ class TriangleTest {
     Triangle tgd = new Triangle(new Point(3, 2), new Point(0, 2), new Point(0, 3));
     //Khong phai tam giac
     Triangle ktg = new Triangle(new Point(0, 0), new Point(1, 1), new Point(1, 1));
-    //3 diem
+    //2 diem
     Point p1 = new Point(3, 2);
     Point p2 = new Point(0, 2);
-    Point p3 = new Point(0, 3);
 
     @Test
     @DisplayName("Calculate distance")
