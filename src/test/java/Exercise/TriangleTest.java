@@ -35,7 +35,7 @@ class TriangleTest {
     @DisplayName("Calculate Perimeter triangle")
     void calculatePerimeterTriangle() {
         double actual = Triangle.calPerimeter(tg);
-        double expected = 11.4;
+        double expected = 11.458193116710234;
         assertEquals(expected, actual);
     }
 
@@ -51,7 +51,7 @@ class TriangleTest {
     @DisplayName("Calculate Permeter isosceles right Triangle")
     void calculatePermeterIsoscelesRightTriangle() {
         double actual = Triangle.calPerimeter(tgvc);
-        double expected = 3.4;
+        double expected = 3.414213562373095;
         assertEquals(expected, actual);
     }
 
@@ -59,7 +59,7 @@ class TriangleTest {
     @DisplayName("Calculate Permeter isosceles triangle ")
     void calculatePermeterIsoscelesTriangle() {
         double actual = Triangle.calPerimeter(tgc);
-        double expected = 7.2;
+        double expected = 7.16227766016838;
         assertEquals(expected, actual);
     }
 
@@ -67,7 +67,7 @@ class TriangleTest {
     @DisplayName("Calculate Perimeter Equilateral triangle")
     void calculatePerimeterEquilateralTriangle() {
         double actual = Triangle.calPerimeter(tgd);
-        double expected = 7.2;
+        double expected = 7.16227766016838;
         assertEquals(expected, actual);
     }
 
@@ -75,7 +75,7 @@ class TriangleTest {
     @DisplayName("Calculate area triangle")
     void calculateAreaTriangle() {
         double actual = Triangle.calArea(tg);
-        double expected = 4.5;
+        double expected = 4.499999999999998;
         assertEquals(expected, actual);
     }
 
@@ -91,7 +91,7 @@ class TriangleTest {
     @DisplayName("Calculate area isosceles right Triangle")
     void calculateAreaIsoscelesRightTriangle() {
         double actual = Triangle.calArea(tgvc);
-        double expected = 0.5;
+        double expected = 0.49999999999999983;
         assertEquals(expected, actual);
     }
 
@@ -99,7 +99,7 @@ class TriangleTest {
     @DisplayName("Calculate Area isosceles triangle")
     void calculateAreaIsoscelesTriangle() {
         double actual = Triangle.calArea(tgc);
-        double expected = 1.5;
+        double expected = 1.5000000000000007;
         assertEquals(expected, actual);
     }
 
@@ -107,7 +107,7 @@ class TriangleTest {
     @DisplayName("Calculate Area equilateraltriangle")
     void calculateAreaEquilateralTriangle() {
         double actual = Triangle.calArea(tgc);
-        double expected = 1.5;
+        double expected = 1.5000000000000007;
         assertEquals(expected, actual);
     }
 
